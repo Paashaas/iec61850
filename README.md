@@ -1,9 +1,9 @@
 # iec61850
 
 [![License](https://img.shields.io/badge/license-GPL--3.0-green.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
-[![PkgGoDev](https://pkg.go.dev/badge/mod/github.com/wendy512/iec61850)](https://pkg.go.dev/mod/github.com/wendy512/iec61850)
+[![PkgGoDev](https://pkg.go.dev/badge/mod/github.com/Paashaas/iec61850)](https://pkg.go.dev/mod/github.com/Paashaas/iec61850)
 ![Go Version](https://img.shields.io/badge/go%20version-%3E=1.0-61CFDD.svg?style=flat-square)
-[![Go Report Card](https://goreportcard.com/badge/github.com/wendy512/iec61850?style=flat-square)](https://goreportcard.com/report/github.com/wendy512/iec61850)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Paashaas/iec61850?style=flat-square)](https://goreportcard.com/report/github.com/Paashaas/iec61850)
 
 English | [中文](README_zh_CN.md)
 
@@ -39,7 +39,7 @@ The library support the following IEC 61850 protocol features:
 >For Windows environments, it is recommended to use [GCC 14.2.0](https://github.com/brechtsanders/winlibs_mingw/releases/download/14.2.0posix-19.1.1-12.0.0-ucrt-r2/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.1-mingw-w64ucrt-12.0.0-r2.zip) as the GCC compiler.
 
 ```shell
-go get -u github.com/wendy512/iec61850
+go get -u github.com/Paashaas/iec61850
 ```
 
 - [Client control operations](test/client_control/client_control_test.go)
@@ -56,7 +56,3 @@ go get -u github.com/wendy512/iec61850
 ## License
 
 iec61850 is based on the [GPL-3.0 license](./LICENSE) agreement, and iec61850 relies on some third-party components whose open source agreement is GPL-3.0 and MIT.
-
-## Contact
-
-- Email：<wendy512@yeah.net>

@@ -1,9 +1,9 @@
 # iec61850
 
 [![License](https://img.shields.io/badge/license-GPL--3.0-green.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
-[![PkgGoDev](https://pkg.go.dev/badge/mod/github.com/wendy512/iec61850)](https://pkg.go.dev/mod/github.com/wendy512/iec61850)
+[![PkgGoDev](https://pkg.go.dev/badge/mod/github.com/Paashaas/iec61850)](https://pkg.go.dev/mod/github.com/Paashaas/iec61850)
 ![Go Version](https://img.shields.io/badge/go%20version-%3E=1.0-61CFDD.svg?style=flat-square)
-[![Go Report Card](https://goreportcard.com/badge/github.com/wendy512/iec61850?style=flat-square)](https://goreportcard.com/report/github.com/wendy512/iec61850)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Paashaas/iec61850?style=flat-square)](https://goreportcard.com/report/github.com/Paashaas/iec61850)
 
 
 中文 | [English](README.md)
@@ -38,7 +38,7 @@ iec61850 是实现 MMS、GOOSE 和 SV 协议的 IEC 61850 客户端和服务器�
 >Windows环境下建议使用 [GCC 14.2.0](https://github.com/brechtsanders/winlibs_mingw/releases/download/14.2.0posix-19.1.1-12.0.0-ucrt-r2/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.1-mingw-w64ucrt-12.0.0-r2.zip) 作为GCC编译器。
 
 ```shell
-go get -u github.com/wendy512/iec61850
+go get -u github.com/Paashaas/iec61850
 ```
 
 - [客户端控制](test/client_control/client_control_test.go)
@@ -54,7 +54,3 @@ go get -u github.com/wendy512/iec61850
 ## 开源许可
 
 iec61850 基于 [GPL-3.0 license](./LICENSE) 协议，iec61850 依赖了一些第三方组件，它们的开源协议也为 GPL-3.0 和 MIT。
-
-## 联系方式
-
-- 邮箱：<wendy512@yeah.net>
