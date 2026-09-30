@@ -37,7 +37,7 @@ func NewTLSConfig() *TLSConfig {
 	return &TLSConfig{
 		ChainValidation:            true,
 		AllowOnlyKnownCertificates: false,
-		MinTlsVersion:              TLS_VERSION_TLS_1_0,
+		MinTlsVersion:              TLS_VERSION_TLS_1_2,
 		MaxTlsVersion:              TLS_VERSION_NOT_SELECTED,
 		caCerts:                    make([]string, 0),
 		allowedCertificates:        make([]string, 0),

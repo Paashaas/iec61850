@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wendy512/iec61850"
+	"github.com/Paashaas/iec61850"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/wendy512/iec61850"
+	"github.com/Paashaas/iec61850"
 )
 
 func createPrintReporter(sep string) iec61850.SvReportHandler {
